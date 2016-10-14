@@ -59,6 +59,8 @@ public class Problem104 {
 	}
 	
 	public static boolean F(int n){
+		// generates n'th Fibonacci number, not precisely but we only need 
+		// first 10 digits
 		double A = (1 + Math.sqrt(5))/2;
 		double Fib = A;
 		int counter = 1;
